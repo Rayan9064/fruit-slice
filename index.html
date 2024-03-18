@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Slice Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts" id="trialsLeft">
+            <!-- <span id="heart"></span> -->
+        </div>
+        <div class="score">
+            Score: <span id="score">0</span>
+        </div>
+        <div class="fruitsContainer" id="fruitsContainer">
+            <img class="fruit" id="fruit1">
+        </div>
+        <div class="cl-ans">
+            <p>Select the right answer</p>
+        </div>
+        <div class="start">
+            <button id="start-btn">START GAME</button>
+        </div>
+    </div>
+    <div id="gameOver" class="alert">
+    <p>Game over! <br>Your score is <span id="alert-score"> </span> </p>
+    </div>
+    <audio id="sliceSound">
+        <source src="audio/19312__martian__classic-double-swwosh.mp3"></source>
+        <source src="audio/19312__martian__classic-double-swwosh.ogg"></source>
+    </audio>
+    <script src="jquery.js"></script>
+</body>
+</html>

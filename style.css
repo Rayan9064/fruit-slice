@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(214, 194, 194);
+}
+
+.container {
+    width: 800px;
+    height: 550px;
+    margin: 0px auto; 
+    border-radius: 6px;
+    background-image: linear-gradient(to left, rgb(19, 190, 238), rgb(10, 73, 154));
+    box-shadow: 0px 4px rgb(0, 106, 255);
+    position: relative;
+    padding: 20px;
+}
+
+.hearts {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(232, 179, 111);
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    top: 30px;
+    box-shadow: 0px 4px rgb(170, 140, 92);
+    border-radius: 4px;
+    display: none;
+}
+
+.heart {
+    padding: 0px 5px;
+    font-size: 22px;
+}
+
+.score {
+    background-color: burlywood;
+    position: absolute;
+    padding: 10px;
+    left: 750px;
+    box-shadow: 0px 4px rgb(170, 140, 92);
+    border-radius: 4px;
+}
+
+.fruitsContainer {
+    width: 700px;
+    height: 350px;
+    margin: 60px auto 10px auto;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
+
+.cl-ans {
+    background-color: rgb(127, 255, 133);
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 4px 3px 2px rgb(46, 157, 76);
+}
+
+.cl-ans p {
+    text-align: center;
+    line-height: 50px;
+    color: rgb(0, 8, 239);
+    font-weight: 600;
+}
+
+.start button {
+    position: relative;
+    left: 350px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(185, 13, 41);
+    font-weight: 800;
+    border:none;
+    box-shadow: 4px 3px 2px aqua;
+}
+
+.start button:hover {
+    background-color: cornflowerblue;
+    box-shadow: 4px 4px rgb(0, 4, 255);
+    color: rgb(255, 110, 53);
+}
+
+.start button:active {
+    top: 4px;
+    box-shadow: 0px 0px blue;
+}
+
+.timer p {
+    position: absolute;
+    background-color: chocolate;
+    padding: 10px 8px;
+    left: 450px;
+    bottom: 10px;
+    box-shadow:0px 4px rgb(145, 71, 18);
+    border-radius: 6px;
+    display: none;
+}
+
+.alert {
+    width: 500px;
+    height: 250px;
+    color: white;
+    background-color: rgb(255, 0, 60);
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: -500px;
+    box-shadow: 4px 4px rgb(127, 13, 13);
+    z-index: 2;
+    display: none;
+}
+
+.alert p {
+    padding-top: 50px;
+    font-size: 45px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
